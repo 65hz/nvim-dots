@@ -1,9 +1,6 @@
 local opt = vim.opt
 local g = vim.g
 
--- cursor consistency
-opt.guicursor = ""
-
 -- line numbers
 opt.nu = true
 opt.relativenumber = true

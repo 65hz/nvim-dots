@@ -70,7 +70,7 @@ vim.keymap.set("i", ".", ".<c-g>u")
 vim.keymap.set("i", ";", ";<c-g>u")
 
 -- save file
-vim.keymap.set({ "i", "x", "n", "s" }, "<leader>Fs", "<cmd>w<cr><esc>", { desc = "Save file" })
+vim.keymap.set({"n"}, "<leader>Fs", "<cmd>w<cr><esc>", { desc = "Save file" })
 
 --keywordprg
 vim.keymap.set("n", "<leader>K", "<cmd>norm! K<cr>", { desc = "Keywordprg" })
