@@ -8,6 +8,10 @@ opt.guicursor = ""
 opt.nu = true
 opt.relativenumber = true
 
+-- undo
+opt.undofile = true
+opt.undodir="$HOME/.local/state/nvim/undo"
+
 -- spaces
 opt.tabstop = 2
 opt.softtabstop = 2
@@ -35,3 +39,4 @@ opt.showmode = false
 
 -- leader
 g.leader = " "
+

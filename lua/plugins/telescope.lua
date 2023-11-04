@@ -19,6 +19,7 @@ return {
 		{ "<leader>fb", "<cmd>Telescope buffers<CR>", desc = "Find buffers" },
 		{ "<leader>fh", "<cmd>Telescope help_tags<CR>", desc = "Help" },
 		{ "<leader>fk", "<cmd>Telescope keymaps<CR>", desc = "Find keymaps" },
+		{ "<leader>fu", "<cmd>Telescope undo<CR>", desc = "Undo Tree" },
 	},
 	opts = {
 		defaults = {
@@ -38,6 +39,7 @@ return {
 	},
 	config = function()
 		require("telescope").load_extension("fzf")
+    require("telescope").load_extension("undo")
 	end,
 }
 
