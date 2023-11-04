@@ -8,6 +8,10 @@ return {
 			enabled = vim.fn.executable "make" == 1,
 			build = "make",
 		},
+    {
+      "debugloop/telescope-undo.nvim",
+    },
+
 	},
 	keys = {
 		{ "<leader>ff", "<cmd>Telescope find_files<CR>", desc = "Find Files" },
