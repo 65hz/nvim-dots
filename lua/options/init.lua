@@ -7,7 +7,7 @@ opt.relativenumber = true
 
 -- undo
 opt.undofile = true
-opt.undodir=~/.local/state/nvim/undo
+-- opt.undodir=~/.local/state/nvim/undo
 
 -- spaces
 opt.tabstop = 2
